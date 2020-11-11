@@ -13,5 +13,12 @@ namespace WebApplication1
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            TextBox2.Text = TextBox1.Text;
+            TextBox1.Text = " ";
+
+        }
     }
 }
